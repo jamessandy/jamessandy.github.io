@@ -126,3 +126,60 @@
         <h1 class="header-name">News</h1>
         <ul>
             <li><b>Oct 2026:</b> I passed the Google Cloud <a href="https://www.credly.com/badges/d855bbd1-3775-4452-99d3-91255f9da37e/public_url" target="_blank" rel="noopener noreferrer" style="color: #396482;">Professional Cloud Architect</a> certification exam!</li>
+            <li><b>Mar 2026:</b> I served as a facilitator for the <a href="https://credsverse.com/credentials/cb9b4d55-4b54-406c-bca3-5568246cd563" target="_blank" rel="noopener noreferrer" style="color: #396482;">AI Safety Fundamentals</a> course by AI Safety Atlas, as part of AI Safety Collab. </li>
+            <li><b>Feb 2026:</b> I completed the <a href="https://bluedot.org/certification?id=reclwfv1Ucn99BBYv" target="_blank" rel="noopener noreferrer" style="color: #396482;">Technical AI Safety Project</a> course with BlueDot Impact. </li>
+            <li><b>Jan 2026:</b> I completed the <a href="https://sparai.org/certificates/fa25/recqAg3lq30nDuuKH" target="_blank" rel="noopener noreferrer" style="color: #396482;">Supervised Program for Alignment Research (SPAR)</a> as a Fall 2025 research fellow. </li>
+            <li><b>Dec 2025:</b> I completed the <a href="https://bluedot.org/certification?id=recKFUFv7OwtsDch5" target="_blank" rel="noopener noreferrer" style="color: #396482;">Technical AI Safety</a> course with BlueDot Impact. </li>
+            <li><b>Nov 2025:</b> I completed the <a href="https://bluedot.org/certification?id=receeyprxTvPrNbXG" target="_blank" rel="noopener noreferrer" style="color: #396482;">AGI Strategy</a> course with BlueDot Impact. </li>
+            <li><b>Sept 2025:</b> My project, <a href="https://apartresearch.com/project/internal-defence-system-5y4n" target="_blank" rel="noopener noreferrer" style="color: #396482; ">Internal Defence System (IDS)</a>, was submitted to the Apart Research sprint. I built a real-time, mechanistically inspired safeguard using linear probes and activation steering on Gemma-2B-IT to mitigate CBRN risks.</li>
+            <li><b>Sept 2025:</b> I got accepted into the <a href="https://sparai.org/" target="_blank" rel="noopener noreferrer" style="color: #396482;">Supervised Program for Alignment Research</a> as an AI safety research fellow and my mentor is Shivam Raval from Harvard University. </li>
+            <li><b>Aug 2025:</b> I got a <a href="https://www.credly.com/badges/740db231-fb5b-475a-a0f9-24a664f620a5/public_url" target="_blank" rel="noopener noreferrer" style="color: #396482;">Build with Vertex AI Technical Expert Badge from Google Cloud.</a>  </li>
+        </ul>
+
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small> <b>Last Updated:</b> October, 2026 </small>
+        <small class="block">
+          © James Sandy. Shamelessly forked from
+          <a href="https://orevaahia.github.io/" target="_blank"
+            ><span style="color: rgb(10, 93, 128)">Steven Kolawole's page</span></a
+          >· &lt;/&gt; Powered by
+          <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and
+          <a href="https://github.com/heiswayi/thinkspace" target="_blank"
+            >Thinkspace</a
+          >; hosted on
+          <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        </small>
+      </div>
+    </footer>
+
+    <script>
+      function toggleDescription(descId, button) {
+        const desc = document.getElementById(descId);
+        const isHidden = desc.style.display === 'none';
+        
+        if (isHidden) {
+          desc.style.display = 'block';
+          button.textContent = 'Read less ▲';
+          button.setAttribute('aria-expanded', 'true');
+        } else {
+          desc.style.display = 'none';
+          button.textContent = 'Read more ▼';
+          button.setAttribute('aria-expanded', 'false');
+        }
+      }
+
+      // Initialize buttons with proper ARIA attributes on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        const buttons = document.querySelectorAll('.read-more-btn');
+        buttons.forEach(button => {
+          const isExpanded = button.textContent.includes('less');
+          button.setAttribute('aria-expanded', isExpanded.toString());
+        });
+      });
+    </script>
+  </body>
+</html>
